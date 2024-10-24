@@ -1,0 +1,21 @@
+@import './side-bar.css';
+
+@import './reset.css';
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+html {
+    background-color: #121212;
+}
+
+input {
+    background: none;
+    border: none;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: none; 
+}

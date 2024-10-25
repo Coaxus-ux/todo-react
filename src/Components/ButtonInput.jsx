@@ -1,10 +1,10 @@
-import { TypcnTimes } from "@/assets/Icons/TypcnTimes"
+import { TypcnTimes } from "@/components/Icons"
 export default function ButtonInput() {
   return (
-    <div className="button-container">
+    <div className="button-input-container">
       <input type="text" placeholder="Add a task" />
       <button className="button-input">
-        <TypcnTimes width="20" height="20" />
+        <TypcnTimes size="20" />
       </button>
     </div>
   )

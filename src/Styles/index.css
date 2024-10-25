@@ -19,3 +19,21 @@ input:focus {
     outline: none;
     box-shadow: none; 
 }
+
+.button-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    background: none;
+    cursor: pointer;
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.button-container:hover {
+    background-color: #121212;
+}

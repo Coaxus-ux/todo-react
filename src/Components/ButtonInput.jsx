@@ -1,5 +1,5 @@
 export default function ButtonInput() {
-  const handleClick = () => { 
+  const handleClick = () => {
     console.log('clicked')
   }
   return (
